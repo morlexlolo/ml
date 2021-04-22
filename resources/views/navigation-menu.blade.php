@@ -1,4 +1,5 @@
-<nav class="w-full container nav flex flex-wrap items-center justify-between px-6 z-50 sticky top-0 bg-black shadow-xl">
+<nav
+    class="w-full container nav flex flex-wrap items-center justify-between px-6 z-100 sticky top-0 opacity-80 bg-black shadow-5xl">
     <div class="flex flex-no-shrink items-center mr-6 py-3 text-white">
         <svg class="fill-current h-8 mr-2 w-8" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round"
             stroke-linejoin="round" stroke-miterlimit="1.5" clip-rule="evenodd" viewBox="0 0 716 895">
@@ -17,37 +18,32 @@
         <span class="navicon bg-grey-darkest flex items-center relative"></span>
     </label>
     <ul class="menu border-b md:border-none flex justify-end list-reset m-0 w-full md:w-auto">
-        <li class="border-t md:border-none">
+        <li class="md:border-none">
             <a href="/"
-                class="block md:inline-block px-4 py-3 no-underline text-white capitalize font-bold hover:text-grey-darker font-bold">Home</a>
+                class="block md:inline-block px-4 py-3 no-underline text-white capitalize border-red-500  hover:text-grey-darker font-bold">Home</a>
         </li>
 
-        <li class="border-t md:border-none">
-            <a href="/about/"
+        <li class="md:border-none">
+            <a href="{{ route('about.index') }}"
                 class="block md:inline-block px-4 py-3 no-underline text-white capitalize font-bold hover:text-grey-darker">About
-                me</a>
+            </a>
         </li>
-        <li class="border-t md:border-none">
-            <a href="/about/"
+        <li class="md:border-none">
+            <a href="{{ route('music.index') }}"
                 class="block md:inline-block px-4 py-3 no-underline text-white capitalize font-bold hover:text-grey-darker">Music</a>
         </li>
-        <li class="border-t md:border-none">
-            <a href="/about/"
+        <li class="md:border-none">
+            <a href="{{ route('video.index') }}"
                 class="block md:inline-block px-4 py-3 no-underline text-white capitalize font-bold hover:text-grey-darker">Video</a>
         </li>
-        <li class="border-t md:border-none">
-            <a href="/about/"
+        <li class="md:border-none">
+            <a href="{{ route('photo.index') }}"
                 class="block md:inline-block px-4 py-3 no-underline text-white capitalize font-bold hover:text-grey-darker">Photos</a>
         </li>
-
-        <li class="border-t md:border-none">
-            <a href="/blog/"
-                class="block md:inline-block px-4 py-3 no-underline text-white capitalize font-bold hover:text-grey-darker">Blog</a>
-        </li>
-        <li class="border-t md:border-none">
-            <a href="/blog/"
+        <li class="md:border-none">
+            <a href="{{ route('contact.index') }}"
                 class="block md:inline-block px-4 py-3 no-underline text-white capitalize font-bold hover:text-grey-darker">Contact
-                me</a>
+            </a>
         </li>
 
     </ul>

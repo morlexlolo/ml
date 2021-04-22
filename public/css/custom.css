@@ -25,6 +25,18 @@
   background: rgb(163, 29, 29);
 }
 
+
+/* PLaceholder */
+
+
+/* Contact page css */
+
+.contact-page{
+  background-image: url('/images/bg-cover.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .cover-text{
     position: absolute;
     top: 50%;

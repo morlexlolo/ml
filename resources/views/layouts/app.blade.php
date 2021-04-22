@@ -34,7 +34,7 @@
 
 <body class="font-sans antialiased">
     <x-jet-banner />
-    <div class="min-h-screen bg-gray-100 text-gray-600">
+    <div class="min-h-screen bg-black text-gray-400">
         @livewire('navigation-menu')
         <!-- Page Heading -->
         @if (isset($header))
@@ -44,13 +44,12 @@
                 </div>
             </header>
         @endif
-
         <!-- Page Content -->
         <main>
             {{ $slot }}
         </main>
     </div>
-
+    @include('partials.footer')
     @stack('modals')
 
     @livewireScripts
