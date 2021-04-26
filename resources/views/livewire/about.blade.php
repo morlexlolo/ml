@@ -3,10 +3,11 @@
     <div class="contact-page sm:container sm:mx-auto sm:h-screen sm:px-32">
         <div class="grid grid-row-1 sm:grid-col-5 sm:gap-4">
             <div class="sm:col-start-1 sm:col-span-3">
-                <img class="w-full shadow-lg h-75 object-cover object-center transform skew-y-6" src="/images/one.jpeg"
+                <img class="w-full shadow-2xl rounded-lg  h-75 object-cover object-center"
+                    src="https://images.pexels.com/photos/1809393/pexels-photo-1809393.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                     alt="About ml">
             </div>
-            <div class="sm:col-start-4 sm:col-span-2">
+            <div class="sm:col-start-4 sm:col-span-2 ">
                 <div class="px-4 sm:px-0">
                     <h3 class="text-lg inline-flex items-center font-bold leading-6 font-custom text-gray-300 pb-3">
                         <svg class=" fill-current text-gray-300 mr-2 h-6 w-6" viewBox="0 0 24 24">

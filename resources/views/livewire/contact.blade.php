@@ -217,10 +217,9 @@
                             </div>
                             <div class="px-4 py-3 bg-black text-left sm:px-6">
                                 <button type="submit"
-                                    class="inline-flex tracking-widest uppercase leading-loose justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-bold rounded-md text-white bg-red-500 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                    class="inline-flex items-center tracking-widest uppercase leading-loose justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-bold rounded-md text-white bg-red-500 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                                     Send message
-
-                                    <svg class=" fill-current hover:text-red-400 transition duration-500 ease-in-out ml-2 h-6 w-6"
+                                    <svg class=" fill-current hover:text-red-400 transition duration-500 ease-in-out ml-2 h-4 w-4"
                                         viewBox="0 0 24 24">
                                         <path d=" M0 0h24v24H0V0z" fill="none"></path>
                                         <path

@@ -1,5 +1,5 @@
 <nav
-    class="w-full container nav flex flex-wrap items-center justify-between px-6 z-100 sticky top-0 opacity-80 bg-black shadow-5xl">
+    class="w-full container nav flex flex-wrap items-center justify-between px-6 z-50 sticky top-0 opacity-80 bg-black shadow-5xl">
     <div class="flex flex-no-shrink items-center mr-6 py-3 text-white">
         <svg class="fill-current h-8 mr-2 w-8" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round"
             stroke-linejoin="round" stroke-miterlimit="1.5" clip-rule="evenodd" viewBox="0 0 716 895">

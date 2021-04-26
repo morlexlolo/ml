@@ -1,27 +1,19 @@
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
-    loop:true,
-    margin:10,
-    stagePadding: 25,
-    video:true,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:2,
-            nav:false
-        },
-        1000:{
-            items:3,
-            loop:true
+    $('.owl-carousel').owlCarousel({
+        items:1,
+        merge:true,
+        loop:true,
+        margin:10,
+        video:true,
+        lazyLoad:true,
+        center:true,
+        responsive:{
+            480:{
+                items:2
+            },
+            600:{
+                items:4
+            }
         }
-    }
-    });
-    
+    })
   });
-
-//   Plyr 
-const player = new Plyr('#player');

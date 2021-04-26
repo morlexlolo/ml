@@ -20,16 +20,24 @@
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
-
+    <!-- nanogallery2 -->
+    <link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet"
+        type="text/css">
 
     @livewireStyles
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="{{ asset('js/custom.js') }}" defer></script>
-    <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}" defer></script>
+    <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
+
+    {{-- nanogallery2 --}}
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js">
+    </script>
+
 </head>
 
 <body class="font-sans antialiased">
