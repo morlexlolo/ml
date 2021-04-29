@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- nanogallery2 -->
     <link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet"
         type="text/css">
@@ -33,6 +34,7 @@
     <script src="{{ asset('js/owl.carousel.min.js') }}" defer></script>
     <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     {{-- nanogallery2 --}}
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js">
@@ -40,7 +42,7 @@
 
 </head>
 
-<body class="font-sans antialiased">
+<body class="font-sans antialiased leading-10 tracking-widest">
     <x-jet-banner />
     <div class="min-h-screen bg-black text-gray-400">
         @livewire('navigation-menu')
